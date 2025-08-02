@@ -5,6 +5,14 @@ body {
     color: #ffeeee;
 }
 
+main{
+    display: grid;
+}
+header{
+    padding: 10px;
+    display: grid;
+}
+
 h1 {
     display: grid;
     padding: 2px;
@@ -25,5 +33,12 @@ main{
     background-color: #393723;
     border-radius: 15px 3px 3px 3px ;
     padding: 15px;
+}
 
+@media (min-width: 768px){
+     main{
+        flex-direction: columns;
+    }
+
+    
 }
