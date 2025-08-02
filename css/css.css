@@ -8,25 +8,26 @@ body {
 main{
     display: grid;
 }
-header{
-    padding: 10px;
+
+.header{
+    padding: 2rem;
     display: grid;
 }
 
 h1 {
     display: grid;
-    padding: 2px;
+    padding: 0.1rem;
     color: #fde8b4;
 }
 
 main{
     display: grid;
+    max-width: 1100px;
+    margin:auto;
     grid-gap: 10px;
     padding: 15px;
     grid-template-columns: 1fr 1fr 1fr;
-
-    justify-items: center;
-    color: #d7c2eb;
+    color: #ebdbc2;
 }
 
 .articPar{
@@ -34,6 +35,14 @@ main{
     border-radius: 15px 3px 3px 3px ;
     padding: 15px;
 }
+
+footer{
+    margin-left: 22px;
+    padding: 1rem;
+    margin-bottom: auto;
+    color: #fde8b4;
+}
+
 
 @media (min-width: 768px){
      main{
