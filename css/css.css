@@ -1,0 +1,29 @@
+body {
+    display: grid;
+    background-color: #4f483e;
+    font-family: monospace;
+    color: #ffeeee;
+}
+
+h1 {
+    display: grid;
+    padding: 2px;
+    color: #fde8b4;
+}
+
+main{
+    display: grid;
+    grid-gap: 10px;
+    padding: 15px;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    justify-items: center;
+    color: #d7c2eb;
+}
+
+.articPar{
+    background-color: #393723;
+    border-radius: 15px 3px 3px 3px ;
+    padding: 15px;
+
+}
